@@ -126,7 +126,7 @@ function fix_layout()
         hs.layout.apply({
             -- Put the iTunes miniplayer in the bottom right corner
             -- in the unused space not taken by the dock
-            { "iTunes", "MiniPlayer", hs.screen.primaryScreen(), nil, nil, hs.geometry.rect(-350, -45, 350, 45) },
+            { "iTunes", "MiniPlayer", hs.screen.primaryScreen(), nil, nil, hs.geometry.rect(-500, -75, 500, 75) },
         })
     end)
 end
